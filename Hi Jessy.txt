@@ -1,0 +1,19 @@
+Hi Jessy! Thanks for coming all the way up to Wray Ward!
+
+There's a file called VX-modular-skylights-LP.psd in Desktop/jessy. To get a better sense of your coding style, we'd like for you to write as much HTML and CSS as you can in order to translate this design into the browser. Feel free to use "The Internet" as you normally would while building a site. There's a "code" starter directory in Desktop/jessy with a fancy index.html file in it.
+
+Main stuff we're looking for:
+
+	* clean, semantic markup and CSS
+	* attention to detail
+
+Bonus:
+
+	* responsive / media queries
+	* build scripts (grunt / gulp for minifying, concatenating etc)
+
+For the bonus stuff, only do it if it makes sense. Don't go bonkers. We'd rather see a well-marked-up document that's finished than a single content area where everything's in a media query or only a build script.
+
+I don't think you'll need a virtual host (MAMP etc) for this. Since you're just writing HTML and CSS, it should run straight in the browser.
+
+Please let us know if you have questions!

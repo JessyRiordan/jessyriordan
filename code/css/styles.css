@@ -6,12 +6,17 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
 }
 
+/* Section 1 */
+
 .section1 {
-	background: #E0E0E0;
+	background: #efefef;
 	padding: 3%;
 }
+
+/* Header */
 
 #logo {
 	padding-left: 5%;
@@ -30,44 +35,63 @@ body {
 	display: inline;
 	font-size: 120%;
 	font-weight: 100;
-	color: #A0A0A0;
+	color: #5a5a5a;
 }
+
 #number {
 	display: inline;
 	font-size: 120%;
 	font-weight: 100;
 	color: red;
 }
+
+/* Section One Images */
+
+.photos {
+	display: inline;
+	height: 100%;
+	width: 100%;
+}
+
 .firstImage {
-	display: inline;
+	transform: rotate(-15deg);
 }
+
 .secondImage {
-	display: inline;
+	transform: rotate(-15deg);
 }
+
+/* Section One Info */
+
 .info {
 	display: inline;
+	position: absolute;
+	top: 70%;
+	left: 60%;
+
 }
 h3 {
 	font-variant: small-caps;
+	padding-bottom: 5%;
 }
 h1 {
-	font-size: 3em;
-	font-weight: thin;
+	font-size: 350%;
+	font-weight: lighter;
+	padding-bottom: 5%;
 }
-#bold {
-	font-weight: bolder;
-}
+
 .secondaryInfo {
-	color: #A0A0A0;
-	font-size: 1.25em;
+	color: #5a5a5a;
+	font-size: 130%;
+	padding-bottom: 5%;
 }
 .learnMore {
 	padding: 1em 2em 1em 2em;
 	background-color: red;
 	border: .25em red;
 	color: white;
-	font-size: 1em;
+	font-size: 100%;
 }
 .section3 {
-	background: #E0E0E0;
+	background: #efefef;
 }

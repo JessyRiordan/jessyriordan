@@ -386,3 +386,36 @@ hr {
 }
 
 /* Footer */
+
+footer {
+	background: #262626;
+	padding: 3%;
+}
+
+footer img {
+	height: auto;
+	width: 9%;
+	padding-left: 5%;
+	display: inline;
+	vertical-align: middle;
+}
+
+#copyright {
+	color: #8c8c8c;
+	font-size: 85%;
+	font-weight: bold;
+	display: inline;
+	vertical-align: text-top;
+	padding-left: 2%;
+}
+
+#website {
+	color: #8c8c8c;
+	font-size: 85%;
+	font-weight: bold;
+	display: inline;
+	float: right;
+	vertical-align: middle;
+	padding-top: 0.8%;
+	padding-right: 5%;
+}

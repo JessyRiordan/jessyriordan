@@ -24,6 +24,7 @@ body {
 
 header {
 	overflow: hidden;
+	padding-bottom: 3%;
 }
 
 #logo {
@@ -71,14 +72,20 @@ header {
 	display: inline;
 	width: 60%;
 	height: auto;
+	padding-left: 5%;
 }
 
 .firstImage {
-	transform: rotate(-10deg);
+	-webkit-transform: skew(15deg);
+	-moz-transform: skew(15deg);
+	-o-transform: skew(15deg);
 }
 
 .secondImage {
-	transform: rotate(-10deg);
+	z-index: 1;
+	-webkit-transform: skew(15deg);
+	-moz-transform: skew(15deg);
+	-o-transform: skew(15deg);
 }
 
 /* Section One Info */
@@ -129,6 +136,12 @@ h1 {
 	width: 35%;
 	margin-left: 5%;
 	display: inline-block;
+}
+
+#parallelogram {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
 }
 
 #helpInfo {

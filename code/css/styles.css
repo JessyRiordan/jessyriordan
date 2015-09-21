@@ -193,6 +193,9 @@ input[type='submit'] {
 .installation a,
 .installation a:visited {
 	color: red;
+	font-size: 120%;
+	font-weight: bold;
+	font-variant: small-caps;
 	text-decoration: none;
 }
 
@@ -212,6 +215,9 @@ input[type='submit'] {
 .products a,
 .products a:visited {
 	color: red;
+	font-size: 120%;
+	font-weight: bold;
+	font-variant: small-caps;
 	text-decoration: none;
 }
 
@@ -291,4 +297,43 @@ hr {
 .section3 {
 	background: #efefef;
 	padding: 3%;
+}
+
+.section3 h3 {
+	padding-bottom: 2%;
+	padding-left: 5%;
+	font-size: 125%;
+}
+
+.section3 img {
+	padding-left: 5%;
+}
+
+.partnership {
+	float: right;
+	margin-right: 25%;
+}
+
+.partnership p {
+	font-size: 120%;
+	color: #5a5a5a;
+	line-height: 1.5;
+	margin-bottom: 10%;
+}
+
+#partHeading {
+	font-size: 175%;
+	color: black;
+	font-weight: 600;
+	margin-top: 7%;
+	margin-bottom: 3%;
+}
+
+.partnership a,
+.partnership a:visited {
+	color: red;
+	font-size: 120%;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
 }

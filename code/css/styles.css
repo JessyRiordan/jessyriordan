@@ -16,20 +16,37 @@ body {
 	width: 100%;
 	background: #efefef;
 	padding: 3%;
-	height: 100%;;
+	height: 100%;
+	overflow: hidden;
 }
 
 /* Header */
 
+header {
+	overflow: hidden;
+}
+
 #logo {
+	float: left;
+	width: 25%;
 	padding-left: 5%;
 	display: inline;
+}
+#logoImg {
+	height: auto;
+	width: 50%;
+}
+
+#skylights {
+	font-size: 75%;
+	font-weight: bold;
+	padding-left: 17%;
 }
 
 .call {
 	float: right;
-	width: 70%;
-	padding-right: 5%;
+	width: 60%;
+	padding-right: 10%;
 	padding-top: 2%;
 	text-align: right;
 }
@@ -52,9 +69,8 @@ body {
 
 .photos {
 	display: inline;
-	position: relative;
 	width: 60%;
-	clear: left;
+	height: auto;
 }
 
 .firstImage {
@@ -103,6 +119,7 @@ h1 {
 
 .section2 {
 	padding: 5% 3% 3% 3%;
+	overflow: hidden;
 }
 
 /* Section Two Form */
@@ -297,6 +314,7 @@ hr {
 .section3 {
 	background: #efefef;
 	padding: 3%;
+	overflow: hidden;
 }
 
 .section3 h3 {
@@ -342,6 +360,7 @@ hr {
 
 .section4 {
 	text-align: center;
+	overflow: hidden;
 }
 
 .section4 h3 {
@@ -390,6 +409,7 @@ hr {
 footer {
 	background: #262626;
 	padding: 3%;
+	overflow: hidden;
 }
 
 footer img {

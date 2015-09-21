@@ -11,67 +11,73 @@
     <body>
         <div class="section1">
           <header>
-            <img id="logo" src="img/velux_large_1.jpg">
+            <img id="logo" src="img/velux_large_1.jpg" alt="Velux Logo">
               <section class="call">
                 <p id="call">Call us for more info</p><p id="number">1-800-949-0894</p>
               </section> <!-- call -->
           </header>
-          <section class="photos">
+          <div class="photos">
             <img class="firstImage" src="http://lorempixel.com/250/400/">
             <img class="secondImage" src="http://lorempixel.com/250/600/">
-          </section> <!-- photos -->
-            <section class="info">
+          </div> <!-- photos -->
+            <div class="info">
                 <h3>\\ siemans head office in denmark</h3>
                 <h1>Going for <strong>Gold</strong></h1>
                 <p class="secondaryInfo">Velux Modular Skylights help Siemans
                 <br>fulfill its vision for a modern building</p>
                 <button class="learnMore">Learn More</button>
-            </section> <!-- info -->
+            </div> <!-- info -->
         </div> <!-- section1 -->
         <div class="section2">
-            <div class="form">
+            <section class="form">
+              <p id="helpInfo">Can we help?</p>
                 <form>
-                    <label>First &amp Last Name</label>
-                    <input type="text">
-                    <label>Phone Number</label>
-                    <input type="text">
-                    <label>Email Address</label>
-                    <input type="text">
-                    <label>Business Name</label>
-                    <input type="text">
-                    <label>Message</label>
-                    <textarea></textarea>
-                    <button>Submit</button>
-
+                  <p>Please complete the form for more information</p>
+                  <label for="name">First &amp Last Name</label>
+                  <input type="text" id="name" required>
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" required>
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" required>
+                  <label for="busName">Business Name</label>
+                  <input type="text" id="busName" required>
+                  <label for="message">Message</label>
+                  <textarea id="message"></textarea>
+                  <div id="subBtn"><input type="submit"></input></div>
                 </form>
-            </div> <!-- form -->
-            <div>
-                <p>\\ Installation</p>
-                <img src="http://lorempixel.com/200/200/">
-                <p>Things to consider before an installation</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <p>\\ Products</p>
-                <img src="http://lorempixel.com/200/200/">
-                <p>An array of solutions with one module design</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="downloads">
-                <p>\\ Downloads</p>
-                <button>PDF</button>
-                <button>Technical Handbook</button>
-                <button>PDF</button>
-                <button>Electrical Handbook</button>
-            </div> <!-- downloads -->
-            <div>
-                <p>\\ Architect Tools</p>
-                <button>Autocad</button>
-                <button>Sketchup</button>
-                <button>Revit</button>
-                <button>3DS</button>
-            </div>
-        </div> <!-- section 2 -->
+            </section> <!-- form -->
+            <section class="content">
+                <div class="installation">
+                  <h3>\\ installation</h3>
+                  <img src="http://lorempixel.com/230/200/">
+                  <p>Things to consider before<br> an installation</p>
+                  <a href="#">Learn More</a>
+                </div> <!-- installation -->
+                <div class="products">
+                  <h3>\\ products</h3>
+                  <img src="http://lorempixel.com/230/200/">
+                  <p>An array of solutions with<br> one module design</p>
+                  <a href="#">Learn More</a>
+                </div> <!-- products -->
+                <div>
+                  <hr>
+                </div>
+                <div class="downloads">
+                  <h3>\\ downloads</h3>
+                  <button class="pdf"><img src="img/pdf_icon.gif" alt="PDF Icon"></button>
+                  <button class="downloadButton">Technical Handbook</button>
+                  <button class="pdf"><img src="img/pdf_icon.gif" alt="PDF Icon"></button>
+                  <button class="downloadButton">Electrical Handbook</button>
+                </div> <!-- downloads -->
+                <div class="architectTools">
+                  <h3>\\ architect tools</h3>
+                  <button class="architectButton"><img src="img/autocad-2015-icon.png" alt="Autocad Icon">| autocad</button>
+                  <button class="architectButton"><img src="img/sketchup_icon.png" alt="Sketchup Icon">| sketchup</button>
+                  <button class="architectButton"><img src="img/Autodesk-Revit-icon.png" alt="Revit Icon">| revit</button>
+                  <button class="architectButton"><img src="img/Autodesk-3ds-Max-icon.png" alt="3DS Icon">| 3ds</button>
+                </div> <!-- architectTools -->
+            </section> <!-- content -->
+          </div> <!-- section 2 -->
         <div class="section3">
             <p>\\ Designed in Cooperation with Foster + Partners</p>
             <img src="http://lorempixel.com/500/350/">

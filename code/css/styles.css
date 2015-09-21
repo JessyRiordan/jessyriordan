@@ -17,7 +17,6 @@ body {
 	background: #efefef;
 	padding: 3%;
 	height: 100%;
-	overflow: hidden;
 }
 
 /* Header */
@@ -82,6 +81,8 @@ header {
 }
 
 .secondImage {
+	position: relative;
+	margin-bottom: -5%;
 	z-index: 1;
 	-webkit-transform: skew(15deg);
 	-moz-transform: skew(15deg);
@@ -139,6 +140,8 @@ h1 {
 }
 
 #parallelogram {
+	margin-top: -6%;
+	z-index: 1;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
@@ -260,7 +263,7 @@ hr {
 	display: inline;
 	float: left;
 	width: 45%;
-	margin-right: 10%;
+	padding-right: 10%;
 }
 
 .downloads h3 {
@@ -326,6 +329,7 @@ hr {
 
 .section3 {
 	background: #efefef;
+	width: 100%;
 	padding: 3%;
 	overflow: hidden;
 }
@@ -423,6 +427,7 @@ footer {
 	background: #262626;
 	padding: 3%;
 	overflow: hidden;
+	width: 100%;
 }
 
 footer img {
@@ -450,5 +455,5 @@ footer img {
 	float: right;
 	vertical-align: middle;
 	padding-top: 0.8%;
-	padding-right: 5%;
+	padding-right: 10%;
 }

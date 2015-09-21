@@ -337,3 +337,52 @@ hr {
 	font-variant: small-caps;
 	text-decoration: none;
 }
+
+/* Section Four */
+
+.section4 {
+	text-align: center;
+}
+
+.section4 h3 {
+	font-size: 125%;
+	padding: 4%;
+}
+
+.logos {
+	width: 100%;
+	text-align: center;
+}
+
+#bimLogo {
+	height: auto;
+	width: 7%;
+	vertical-align: middle;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+#fpLogo {
+	height: auto;
+	width: 15%;
+	vertical-align: middle;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+#autocadLogo {
+	height: auto;
+	width: 7%;
+	vertical-align: middle;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+#siemansLogo {
+	height: auto;
+	width: 15%;
+	vertical-align: middle;
+	padding-bottom: 5%;
+}
+
+/* Footer */

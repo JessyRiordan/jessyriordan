@@ -2,7 +2,6 @@
 	padding: 0;
 	margin: 0;
 }
-
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 100;
@@ -25,7 +24,6 @@ header {
 	overflow: hidden;
 	padding-bottom: 3%;
 }
-
 #logo {
 	float: left;
 	width: 25%;
@@ -36,13 +34,11 @@ header {
 	height: auto;
 	width: 50%;
 }
-
 #skylights {
 	font-size: 75%;
 	font-weight: bold;
 	padding-left: 17%;
 }
-
 .call {
 	float: right;
 	width: 60%;
@@ -50,14 +46,12 @@ header {
 	padding-top: 2%;
 	text-align: right;
 }
-
 #call {
 	display: inline;
 	font-size: 120%;
 	font-weight: 100;
 	color: #5a5a5a;
 }
-
 #number {
 	display: inline;
 	font-size: 120%;
@@ -73,13 +67,11 @@ header {
 	height: auto;
 	padding-left: 5%;
 }
-
 .firstImage {
 	-webkit-transform: skew(15deg);
 	-moz-transform: skew(15deg);
 	-o-transform: skew(15deg);
 }
-
 .secondImage {
 	position: relative;
 	margin-bottom: -5%;
@@ -89,7 +81,7 @@ header {
 	-o-transform: skew(15deg);
 }
 
-/* Section One Info */
+/* Section One Content */
 
 .info {
 	display: inline;
@@ -103,19 +95,16 @@ h2 {
 	padding-bottom: 5%;
 	font-size: 125%;
 }
-
 h1 {
 	font-size: 350%;
 	font-weight: lighter;
 	padding-bottom: 5%;
 }
-
 .secondaryInfo {
 	color: #5a5a5a;
 	font-size: 130%;
 	padding-bottom: 5%;
 }
-
 .learnMore {
 	padding: 1em 2em 1em 2em;
 	background-color: red;
@@ -139,7 +128,6 @@ h1 {
 	margin-left: 5%;
 	display: inline-block;
 }
-
 #parallelogram {
 	margin-top: -6%;
 	z-index: 1;
@@ -147,7 +135,6 @@ h1 {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 }
-
 #helpInfo {
 	background: red;
 	font-size: 200%;
@@ -155,28 +142,22 @@ h1 {
 	width: 45%;
 	margin: 0 auto;
 }
-
 .form p {
 	color: #5a5a5a;
 	padding: 3%;
 	text-align: center;
 	font-size: 125%;
 }
-
 label {
 	display: block;
-	color:#5a5a5a;
+	color: #5a5a5a;
 	font-size: 95%;
 	margin-left: 15%;
 }
-
 label strong {
 	color: red;
 }
-
-input[type='text'],
-input[type='tel'],
-input[type='email'] {
+input[type='text'], input[type='tel'], input[type='email'] {
 	display: block;
 	margin: 0 auto 3% auto;
 	font-size: 100%;
@@ -184,7 +165,6 @@ input[type='email'] {
 	width: 70%;
 	border: none;
 }
-
 textarea {
 	display: block;
 	margin: 0 auto 3% auto;
@@ -193,12 +173,10 @@ textarea {
 	width: 70%;
 	border: none;
 }
-
 #subBtn {
 	text-align: center;
 	margin-bottom: 5%;
 }
-
 input[type='submit'] {
 	padding: 1em 3em 1em 3em;
 	margin: 0 auto;
@@ -214,76 +192,62 @@ input[type='submit'] {
 	float: right;
 	width: 50%;
 }
-
 .installation {
 	display: inline;
 	float: left;
 	width: 45%;
 	padding-bottom: 7%;
 }
-
 .installation h2 {
 	font-size: 125%;
 }
-
 .installation p {
 	color: #5a5a5a;
 	font-size: 105%;
 	padding: 7% 0 7% 0;
 }
-
-.installation a,
-.installation a:visited {
+.installation a, .installation a:visited {
 	color: red;
 	font-size: 120%;
 	font-weight: bold;
 	font-variant: small-caps;
 	text-decoration: none;
 }
-
 .products {
 	display: inline;
 	float: left;
 	width: 45%;
 	padding-bottom: 7%;
 }
-
 .products h2 {
 	font-size: 125%;
 }
-
 .products p {
 	color: #5a5a5a;
 	font-size: 105%;
 	padding: 7% 0 7% 0;
 }
-
-.products a,
-.products a:visited {
+.products a, .products a:visited {
 	color: red;
 	font-size: 120%;
 	font-weight: bold;
 	font-variant: small-caps;
 	text-decoration: none;
 }
-
 hr {
 	display: block;
 	width: 85%;
 }
-
 .downloads {
 	display: inline;
 	float: left;
 	width: 45%;
 	padding-right: 1%;
 }
-
 .downloads h2 {
 	padding-top: 10%;
 	font-size: 125%;
 }
-
 .pdf {
 	background-color: #efefef;
 	height: 50px;
@@ -293,12 +257,10 @@ hr {
 	float: left;
 	margin-bottom: 2%;
 }
-
 .pdf img {
 	height: 50%;
 	width: auto;
 }
-
 .downloadButton {
 	background-color: #efefef;
 	font-size: 100%;
@@ -311,18 +273,15 @@ hr {
 	margin-left: 1%;
 	margin-bottom: 2%;
 }
-
 .architectTools {
 	display: inline;
 	float: left;
 	width: 45%;
 }
-
 .architectTools h2 {
 	padding-top: 10%;
 	font-size: 125%;
 }
-
 .architectButton {
 	background-color: white;
 	font-size: 120%;
@@ -333,7 +292,6 @@ hr {
 	text-align: left;
 	font-variant: small-caps;
 }
-
 .architectButton img {
 	height: 50%;
 	width: auto;
@@ -348,29 +306,30 @@ hr {
 	padding: 3%;
 	overflow: hidden;
 }
-
 .section3 h2 {
 	padding-bottom: 2%;
 	padding-left: 5%;
 	font-size: 125%;
 }
 
+/* Section Three Image */
+
 .section3 img {
 	padding-left: 5%;
 }
+
+/* Section Three Content */
 
 .partnership {
 	float: right;
 	margin-right: 25%;
 }
-
 .partnership p {
 	font-size: 120%;
 	color: #5a5a5a;
 	line-height: 1.5;
 	margin-bottom: 10%;
 }
-
 #partHeading {
 	font-size: 175%;
 	color: black;
@@ -378,9 +337,7 @@ hr {
 	margin-top: 7%;
 	margin-bottom: 3%;
 }
-
-.partnership a,
-.partnership a:visited {
+.partnership a, .partnership a:visited {
 	color: red;
 	font-size: 120%;
 	font-weight: bold;
@@ -394,17 +351,17 @@ hr {
 	text-align: center;
 	overflow: hidden;
 }
-
 .section4 h2 {
 	font-size: 125%;
 	padding: 4%;
 }
 
+/* Section Four Logos */
+
 .logos {
 	width: 100%;
 	text-align: center;
 }
-
 #bimLogo {
 	height: auto;
 	width: 7%;
@@ -412,7 +369,6 @@ hr {
 	padding-right: 10%;
 	padding-bottom: 5%;
 }
-
 #fpLogo {
 	height: auto;
 	width: 15%;
@@ -420,7 +376,6 @@ hr {
 	padding-right: 10%;
 	padding-bottom: 5%;
 }
-
 #autocadLogo {
 	height: auto;
 	width: 7%;
@@ -428,7 +383,6 @@ hr {
 	padding-right: 10%;
 	padding-bottom: 5%;
 }
-
 #siemansLogo {
 	height: auto;
 	width: 15%;
@@ -445,6 +399,8 @@ footer {
 	width: 100%;
 }
 
+/* Footer Image */
+
 footer img {
 	height: auto;
 	width: 9%;
@@ -452,6 +408,8 @@ footer img {
 	display: inline;
 	vertical-align: middle;
 }
+
+/* Footer Content */
 
 #copyright {
 	color: #8c8c8c;
@@ -461,7 +419,6 @@ footer img {
 	vertical-align: text-top;
 	padding-left: 2%;
 }
-
 #website {
 	color: #8c8c8c;
 	font-size: 85%;

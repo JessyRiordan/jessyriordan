@@ -98,9 +98,10 @@ header {
 	margin-top: 10%;
 	margin-right: 7%;
 }
-h3 {
+h2 {
 	font-variant: small-caps;
 	padding-bottom: 5%;
+	font-size: 125%;
 }
 
 h1 {
@@ -169,6 +170,10 @@ label {
 	margin-left: 15%;
 }
 
+label strong {
+	color: red;
+}
+
 input[type='text'],
 input[type='tel'],
 input[type='email'] {
@@ -217,6 +222,10 @@ input[type='submit'] {
 	padding-bottom: 7%;
 }
 
+.installation h2 {
+	font-size: 125%;
+}
+
 .installation p {
 	color: #5a5a5a;
 	font-size: 105%;
@@ -237,6 +246,10 @@ input[type='submit'] {
 	float: left;
 	width: 45%;
 	padding-bottom: 7%;
+}
+
+.products h2 {
+	font-size: 125%;
 }
 
 .products p {
@@ -263,11 +276,12 @@ hr {
 	display: inline;
 	float: left;
 	width: 45%;
-	padding-right: 10%;
+	padding-right: 1%;
 }
 
-.downloads h3 {
+.downloads h2 {
 	padding-top: 10%;
+	font-size: 125%;
 }
 
 .pdf {
@@ -304,8 +318,9 @@ hr {
 	width: 45%;
 }
 
-.architectTools h3 {
+.architectTools h2 {
 	padding-top: 10%;
+	font-size: 125%;
 }
 
 .architectButton {
@@ -334,7 +349,7 @@ hr {
 	overflow: hidden;
 }
 
-.section3 h3 {
+.section3 h2 {
 	padding-bottom: 2%;
 	padding-left: 5%;
 	font-size: 125%;
@@ -380,7 +395,7 @@ hr {
 	overflow: hidden;
 }
 
-.section4 h3 {
+.section4 h2 {
 	font-size: 125%;
 	padding: 4%;
 }
